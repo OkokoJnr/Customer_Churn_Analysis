@@ -5,18 +5,21 @@
 ## Customer Churn Analysis (Telecom Industry)
 ________________________________________
 # Business Problem
-Customer churn poses a major threat to revenue stability and long-term business sustainability in the telecom industry. The organization is experiencing increasing customer attrition and lacks clear insight into why customers are leaving, which segments are most affected, and what actions can reduce churn.
+Customer churn poses a major threat to revenue stability and long-term business sustainability in the telecom industry. 
+
+The organization is experiencing increasing customer attrition and lacks clear insight into why customers are leaving, which segments are most affected, and what actions can reduce churn.
+
 This project was designed to identify churn drivers, high-risk customer segments, and actionable retention opportunities using data analytics and visualization.
 ________________________________________
 # Data
 The dataset contains customer-level records some of which includes:
-•	Customer demographics
-•	Contract type
-•	Payment method
-•	Tenure (account length)
-•	Service usage
-•	Billing and charges
-•	Churn status
++	Customer demographics
++	Contract type
++	Payment method
++	Tenure (account length)
++	Service usage
++	Billing and charges
++	Churn status
 The data was cleaned and structured for analysis and visualization in Tableau.
 ________________________________________
 # Approach
@@ -32,20 +35,20 @@ ________________________________________
 How can customer churn be reduced by identifying key behavioral, contractual, and demographic factors influencing customer attrition?
 ________________________________________
 # Questions Answered
-•	Which customer segments have the highest churn rates?
-•	How does contract type affect churn behavior?
-•	What payment methods are associated with higher churn?
-•	How does customer tenure influence churn probability?
-•	Which customer groups represent the highest retention risk?
++	Which customer segments have the highest churn rates?
++	How does contract type affect churn behavior?
++	What payment methods are associated with higher churn?
++	How does customer tenure influence churn probability?
++	Which customer groups represent the highest retention risk?
 ________________________________________
 # Metrics Used
-•	Churn Rate (%)
-•	Customer Retention Rate
-•	Average Tenure
-•	Customer Count
-•	Revenue Contribution
-•	Contract Distribution
-•	Payment Method Distribution
++	Churn Rate (%)
++	Customer Retention Rate
++	Average Tenure
++	Customer Count
++	Revenue Contribution
++	Contract Distribution
++	Payment Method Distribution
 ________________________________________
 # Dashboard Link
 📍 Tableau Public:
