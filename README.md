@@ -10,17 +10,13 @@ Customer churn poses a major threat to revenue stability and long-term business 
 The organization is experiencing increasing customer attrition and lacks clear insight into why customers are leaving, which segments are most affected, and what actions can reduce churn.
 
 This project was designed to identify churn drivers, high-risk customer segments, and actionable retention opportunities using data analytics and visualization.
+
+*Overall, predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs.*
 ________________________________________
 # Data
 The dataset contains customer-level records some of which includes:
-+	Customer demographics
-+	Contract type
-+	Payment method
-+	Tenure (account length)
-+	Service usage
-+	Billing and charges
-+	Churn status
-The data was cleaned and structured for analysis and visualization in Tableau.
+*Customer ID', 'Churn Label', 'Account Length (in months)', 'Local Calls', 'Local Mins', 'Intl Calls', 'Intl Mins', 'Intl Active', 'Intl Plan', 'Extra International Charges', 'Customer Service Calls', 'Avg Monthly GB Download', 'Unlimited Data Plan', 'Extra Data Charges', 'State', 'Phone Number', 'Gender', 'Age', 'Under 30', 'Senior', 'Group', 'Number of Customers in Group', 'Device Protection & Online Backup', 'Contract Type', 'Payment Method', 'Monthly Charge', 'Total Charges', 'Churn Category', 'Churn Reason*
+
 ________________________________________
 # Approach
 The project followed a structured analytical workflow:
@@ -32,7 +28,15 @@ The project followed a structured analytical workflow:
 Interactive dashboards were built in Tableau to allow dynamic filtering and drill-down analysis across multiple customer dimensions.
 ________________________________________
 # Problem Statement
-How can customer churn be reduced by identifying key behavioral, contractual, and demographic factors influencing customer attrition?
+How can customer churn be reduced by identifying key behavioral, contractual, and demographic factors influencing customer attrition? i.e predict behaviour that are common to customers who churn and common behaviour amongs those who does not churn
+________________________________________
+# Objectives
++ Identify patterns that distinguish churned customers from retained customers across behavioural, contractual, demographic dimensions, and use these patterns to then predict churn risk and guide retention and actions
+
+________________________________________
+# Data sanity check
++ duplicates using COUNT and COUNTD on the CUSTOMERS ID 
+
 ________________________________________
 # Questions Answered
 +	Which customer segments have the highest churn rates?
@@ -50,13 +54,28 @@ ________________________________________
 +	Contract Distribution
 +	Payment Method Distribution
 ________________________________________
+
+# FINDINGS AND INSIGHTS
+
 # Dashboard Link
 📍 Tableau Public:
-The full interactive dashboard can be viewed on [Customer Churn Analysis] (https://public.tableau.com/app/profile/godwin.jnr.okoko/viz/TelcomChurnAnalysis_17693792724990/TelecomCustomerChurnAnalysis?publish=yes) 
+The full interactive dashboard can be viewed on [Customer Churn Analysis] (https://public.tableau.com/app/profile/godwin.jnr.okoko/viz/Book1_17702020568040/High-RiskGroups?publish=yes) 
 ________________________________________
 # Key Insights
+## Contract Type is the Strongest predictor of Churn
+    Customers on month-to-month contracts show a significantly higher churn rate compared to those on one-year and two-year contracts.
 
+    Encourage customers to migrate from month-to-month to a longer-term contracts; this can significantly reduce churn
+![Churn Rate By Contract Type](./Contract%20Type.PNG)
 
+## Payment Method also influcences churn beaviour
+    Customers using electronic check payment experiences higher churn rates than those using automatic transfer or credits cards
+
+    This could be as a result fo the fact that manual payments method has lower engagement and higher friction
+    Automatic paying customers tend to be more stable
+
+    Encouraguing auto-matic payment adoption for services can improve retention and revenue increase
+![Churn Rate By payment Method](./Payment%20Method.PNG)
 ________________________________________
 # Business Recommendations
 
