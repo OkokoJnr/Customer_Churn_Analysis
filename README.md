@@ -86,6 +86,12 @@ ________________________________________
 
     Having targeted onboarding experience, welcoming offers in the first year stands the chance to reduce early churns
 
+## customers Service Calls
+
+    From the visualizations, it is seen that churn rate increases sharply as the number of customers service calls incrises. This rise in number of customer service calls indicates dissatisfaction or unresolved issues. 
+![Customer Service Calls](./customer%20service.PNG)
+
+    This multiple calls signals and ignite furstartion amongsth customers. In this case a reactive support alone would not be sufficient, a aproactive approach would have to be employed
 ________________________________________
 # Business Recommendations
 
