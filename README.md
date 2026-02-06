@@ -73,9 +73,19 @@ ________________________________________
 
     This could be as a result fo the fact that manual payments method has lower engagement and higher friction
     Automatic paying customers tend to be more stable
-
+  
     Encouraguing auto-matic payment adoption for services can improve retention and revenue increase
 ![Churn Rate By payment Method](./Payment%20Method.PNG)
+
+## Customer Tenure
+    From the visualization of churn rate by account lengths, It can be seeing that customers with shorter renure or length of account between 0 to 12 months churn at a much higher rate than long_tenure customers.
+
+![Churn Rate by Length of Customers Account](./account_length.PNG)
+
+    These likely points to the fact that early experience determines a long term retention showing that onboarding quality is critical and crucial
+
+    Having targeted onboarding experience, welcoming offers in the first year stands the chance to reduce early churns
+
 ________________________________________
 # Business Recommendations
 
